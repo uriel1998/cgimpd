@@ -162,14 +162,12 @@ echo '    <img class="button" src="./images/183194_-_forward.png" alt="Next" />'
 echo '</button>'    
 
 
-
-
 if [ "$RANDOMPLAY" == "on" ];then
-    echo '<button type="submit" name="cmd" value="Random" style="border: 0; background: transparent">'
+    echo '<button type="submit" name="cmd" value="Sequential" style="border: 0; background: transparent">'
     echo '    <img class="button" src="./images/183219_-_centered.png" alt="Random" />'
     echo '</button>'    
 else
-    echo '<button type="submit" name="cmd" value="Sequential" style="border: 0; background: transparent">'
+    echo '<button type="submit" name="cmd" value="Random" style="border: 0; background: transparent">'
     echo '    <img class="button" src="./images/183221_-_justification.png" alt="submit" />'
     echo '</button>'    
 fi
