@@ -1,0 +1,217 @@
+/*
+
+	zenlike1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	altered to be a single-column, responsive mobile-ready template
+	by Steven Saus
+
+*/
+
+@import url("font-awesome.css");
+
+@font-face {
+  font-family: 'Belleza';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Belleza'), local('Belleza-Regular'), url(http://themes.googleusercontent.com/static/fonts/belleza/v1/hrFuBwXjCvf5Qp3q0X6-3Q.woff) format('woff');
+}
+
+*
+{
+padding: 0em;
+margin: 0em;
+}
+
+body
+{
+background: #f1e5d6;
+padding: 35px 0px 35px 0px;
+}
+
+body,input
+{
+font-size: 1.3em;
+line-height: 1.5em;
+font-family: Belleza, Times New Roman, serif;
+color: #333333;
+}
+
+p
+{
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+text-align: left;
+}
+
+a
+{
+color: #B96D00;
+text-decoration: none;
+}
+
+a:hover
+{
+text-decoration: none;
+}
+
+
+h3 span
+{
+font-weight: normal;
+}
+
+h3,h4
+{
+text-shadow: 2px 2px 2px #aaa;
+display: inline;
+font-weight: bold;
+background-repeat: no-repeat;
+background-position: right;
+}
+
+h3
+{
+font-size: 1.7em;
+padding-right: 34px;
+background-image: url('images/db1.gif');
+}
+
+h4
+{
+font-size: 1.2em;
+padding-right: 28px;
+background-image: url('images/db2.gif');
+}
+
+
+img.left
+{
+position: relative;
+float: left;
+margin: 0em 1.8em 1.4em 0em;
+}
+
+img.avatar
+{
+position: relative;
+float: left;
+max-width: 100%;
+min-width: 48px;
+min-height: 48px;
+margin: 0em 1.8em 1.4em 0em;
+}
+
+img.toggle {
+max-height: 24px;
+}
+
+img.button
+{
+position: relative;
+float: left;
+max-width: 24px;
+min-width: 24px;
+max-height: 12px;
+min-height: 24px;
+}
+
+.clear {
+    clear: both;
+}
+
+.divider
+{
+position: relative;
+height: 1px;
+
+margin: 2.0em 0em 2.0em 0em;
+}
+
+
+#outer
+{
+z-index: 2;
+position: relative;
+/*
+	The width value below controls the overall width of the design. By default it's set to 82%
+	(so it'll take up 82% of the browser window's width). You can set it to a different percentage
+	value (70%, 90%, etc.) or even a pixel value (760px, 800px, etc.) to enforce a fixed width.
+*/
+width: 95%;
+border: solid 7px #fff;
+background-color: #fff;
+margin: 0 auto;
+}
+
+
+
+#content
+{
+padding: 0em 1.0em 0em 1.0em;
+}
+
+
+#primarycontainer
+{
+width: 95%;
+}
+
+#footer
+{
+position: relative;
+clear: both;
+font-size: 0.8em;
+}
+            
+button {
+float: left;
+width: 50px !important;
+height: 50px !important;
+}
+
+form {
+float: left;
+}            
+
+
+
+
+
+/********************************************************************************************************************/
+/* only on widescreen */
+/********************************************************************************************************************/
+
+@media only screen and (min-width: 860px) {
+  * {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+img.avatar
+{
+position: relative;
+float: left;
+max-width: 33%;
+min-width: 48px;
+margin: 0em 1.8em 1.4em 0em;
+}
+
+
+#content
+{
+padding: 0em 2.0em 0em 2.0em;
+margin: 1.5em 1.5em 0em 0em;
+}
+
+  
+  
+  .wrapper {
+    position: relative;
+    width: 95%;
+    margin-bottom: 2px;
+    margin: 0.1em 0em 0.1em 0em;
+  }  
+
+
+

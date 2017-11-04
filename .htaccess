@@ -1,0 +1,11 @@
+#Alternate default index page
+DirectoryIndex mpd.cgi
+
+AddHandler cgi-script .cgi
+Options +ExecCGI 
+
+<Files "cgimpd.rc">
+        Order Deny,Allow
+        Deny from all
+</Files>
+

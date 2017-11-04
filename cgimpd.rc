@@ -1,0 +1,8 @@
+hostname.of.mpd
+6600
+password
+5
+/directory/of/music
+/directory/for/covers
+/www/base/directory
+http://url.to/refresh/to/
