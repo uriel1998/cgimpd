@@ -210,7 +210,7 @@ echo '</div>'
 echo '  <div id="footer">'
 now="$(date)"  
 printf "Updated at %s  \n" "$now" 
-echo '      <p>Code &copy; 2017 Steven Saus under an MIT license. <br />Design modified from <a href="http://www.freecsstemplates.org/preview/zenlike" target="_blank" >Zenlike</A> by <a target="_blank" href="http://www.nodethirtythree.com/">NodeThirtyThree Design</a>.<br />  Images from <a href="https://unsplash.com/photos/MEcxLZ8ENV8" target="_blank">Valentino Funghi</A> and <a target="_blank" href="https://www.iconfinder.com/icons/379343/equalizer_music_icon#size=128">Paul Iconfinder</p>'
+echo '      <p>Code &copy; 2017 Steven Saus under an MIT license. <br />Design modified from <a href="http://www.freecsstemplates.org/preview/zenlike" target="_blank" >Zenlike</A> by <a target="_blank" href="http://www.nodethirtythree.com/">NodeThirtyThree Design</a>.<br />  Images from <a href="https://unsplash.com/photos/MEcxLZ8ENV8" target="_blank">Valentino Funghi</A> and <a target="_blank" href="https://www.iconfinder.com/iconsets/freecns-cumulus">Iconfinder</p>'
 echo '  </div>'
 echo '</div>'
 echo '</body>'

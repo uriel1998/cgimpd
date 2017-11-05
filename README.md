@@ -48,3 +48,9 @@ Options +ExecCGI
 </Files>
 
 ```
+
+# Attribution
+
+* Webpage template based off of [zenlike](http://www.freecsstemplates.org/preview/zenlike) by [NodeThirtyThree Design](http://www.nodethirtythree.com/)
+* No cover image by [Valentino Funghi](https://unsplash.com/photos/MEcxLZ8ENV8)
+* Icons from [Iconfinder](https://www.iconfinder.com/iconsets/freecns-cumulus)
