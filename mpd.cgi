@@ -25,7 +25,7 @@ echo '  <meta http-equiv="content-type" content="text/html; charset=utf-8" />'
 echo '  <meta name="viewport" content="width=device-width, initial-scale=1">'
 echo '  <link rel="stylesheet" href="./css/default.css" type="text/css" />'
 echo '  <title>Simple MPD web output</title>'
-echo '  <meta http-equiv="refresh" content="'$WEBPAGE_REFRESH'; url='$REFRESHTO'">'
+echo '  <meta http-equiv="refresh" content="'$WEBPAGE_REFRESH'; url='$WWWBASE'">'
 echo '</head>'
 echo '<body id="home">'
 
