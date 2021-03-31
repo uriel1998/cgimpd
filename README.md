@@ -13,14 +13,17 @@ this for a fast, basic, but featureful remote control/status implementation.
 This can also be installed on a *remote* webserver.
 
 There is a more-secure "viewer" only application (`mpdview.sh`) that will 
-show what is currently playing. 
+show what is currently playing. This application does *not* require cgi; 
+it runs separately on the server machine.
 
-![]
+![](https://raw.githubusercontent.com/uriel1998/cgimpd/master/screenshot.png)
 
 # Installation
 
 * Ensure AllowOverrides is on for the webserver so that the .htaccess file is acknowledged
 * I utilize my [WebServer Covers script](https://github.com/uriel1998/yolo-mpd/blob/master/webserver_covers.sh) so that my whole music collection doesn't have to be inside of webroot. You can, of course, symlink your music collection inside of webroot, but that just makes me uneasy.
+* Lyrics are fetched from the music directory as `[song filename].txt`.
+* Fanart is simply `Band Name.jpg`.  
 * Copy this repository inside your webroot.
 * Configure cgimpd.rc
 * Configure .htaccess
