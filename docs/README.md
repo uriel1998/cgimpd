@@ -1,10 +1,11 @@
-cgimpd
-========
+# web-based mpd utilities
+### (officially *cgimpd* )
 
 Using BASH to create a quick web based lyrics/art view of a playing MPD 
 instance, and using BASH and CGI to implement a web-based remote control for 
 MPD.
 
+![cgimpd logo](https://github.com/uriel1998/cgimpd/raw/master/cgimpd-open-graph.png "logo")  
 
 ## Contents
  1. [About](#1-about)
