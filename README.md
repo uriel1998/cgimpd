@@ -1,7 +1,7 @@
 cgimpd
 ========
 
-A CGI (and BASH) implementation of a web-based remote control for MPD
+A CGI (and BASH) implementation of a web-based remote control or viewer for MPD
 
 # Rationale
 
@@ -11,6 +11,11 @@ have features I didn't need (a separate webserver). So I decided to make
 this for a fast, basic, but featureful remote control/status implementation.
 
 This can also be installed on a *remote* webserver.
+
+There is a more-secure "viewer" only application (`mpdview.sh`) that will 
+show what is currently playing. 
+
+![]
 
 # Installation
 
@@ -31,6 +36,8 @@ password
 /directory/for/covers
 /www/base/directory
 http://url.to/refresh/to/
+/directory/for/fanart
+/directory/for/artistart
 ```
 
 Format of .htaccess

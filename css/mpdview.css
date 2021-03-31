@@ -1,0 +1,123 @@
+/*
+
+	zenlike1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	altered to be a single-column, responsive mobile-ready template
+	by Steven Saus
+
+*/
+
+@import url("font-awesome.css");
+
+@font-face {
+  font-family: 'Belleza';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Belleza'), local('Belleza-Regular'), url(http://themes.googleusercontent.com/static/fonts/belleza/v1/hrFuBwXjCvf5Qp3q0X6-3Q.woff) format('woff');
+}
+
+
+body,html 
+{
+font-size: 1.5em;
+line-height: 2em;
+font-family: Belleza, Times New Roman, serif;
+color: #333333;
+height: 100%;
+margin: 0;
+}
+
+    .bg {
+      /* The image used */
+      background-image: url("fanart.jpg");
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ),url("fanart.jpg");
+      /* Full height */
+      height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+#outlined_text {
+	color: white;
+	font-size: 40px;
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+    
+p
+{
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+text-align: left;
+}
+
+img.album
+{
+position: relative;
+float: right;
+opacity: 50%;
+max-width: 25%;
+min-width: 48px;
+min-height: 48px;
+margin: 2em;
+}
+
+img.artist
+{
+position: relative;
+float: right;
+max-width: 25%;
+min-width: 48px;
+min-height: 48px;
+margin: 2em;
+opacity: 50%;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.divider
+{
+position: relative;
+height: 1px;
+
+margin: 2.0em 0em 2.0em 0em;
+}
+
+
+#footer
+{
+position: relative;
+clear: both;
+font-size: 0.8em;
+}
+            
+
+
+/********************************************************************************************************************/
+/* only on widescreen */
+/********************************************************************************************************************/
+
+@media only screen and (min-width: 860px) {
+  * {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+img.avatar
+{
+position: relative;
+float: left;
+max-width: 33%;
+min-width: 48px;
+margin: 0em 1.8em 1.4em 0em;
+}
+
