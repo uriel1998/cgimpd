@@ -11,12 +11,8 @@ MPD.
  2. [License](#2-license)
  3. [Prerequisites](#3-prerequisites)
  4. [Installation](#4-installation)
- 5. [Services Setup](#5-services-setup)
- 6. [Content Warning](#6-advanced-content-warning)
- 7. [Usage](#7-usage)
- 8. [Other Files](#8-other-files)
- 9. [TODO](#9-todo)
-
+ 5. [Attribution](#5-attribution)
+ 
 ***
 
 ## 1. About
